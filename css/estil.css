@@ -6,21 +6,23 @@
  * 			} */
   
 body{
-	text-align: center;
+	text-align: left;
+	 background-color: #00FFDF;
 	} 
 	
 /* Estil pel títol h1*/	
 h1{
 	font-family:Ubuntu;
 	font-size: 36px;
-	color: #49F392;
+	color: #FFFFFF;
 	text-shadow: 2px 2px 8px #FF0000;
+	text-align: left;
 }
 
 /* Estil pel pàrragraf*/
 p{
 	color:blue;  
-	text-align: justify;
+	text-align: left;
 	}
 
 /* Estil pel títol h2*/
@@ -28,5 +30,7 @@ h2{
 	 color:white;  
 	 background-color: #931389;
 	 text-shadow: olive -3px -4px 5px;
+	 text-align: center 
 	}
+		
 		
