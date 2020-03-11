@@ -26,28 +26,36 @@
 			</div>
 			<div>
 				<p>Contrasenya:</p><input type="password" size="30" />
+							
+			</div>
+			<div>
+			<label for="quantity">Quants anys tens:</label>
+			<input type="number" id="quantity" name="quantity" min="18" max="99"><br><br>
 			</div>
 			
-			<div><p>Escull la mena d'adopció que voldries fer:</p>
+			<div><p>Escull el nom correcte:</p>
 			  <!-- Afegeix opcions -->
-			  <select>
-				  <option>Adopció de gossos</option>
-				  <option>Adopció de gats</option>
-				  <option>Posa altres</option>
-			  </select>
+				  <input list="Noms" name="Noms">
+				  <datalist id="Noms">					
+					<option>Tim Berners-Lee</option>
+					<option>Tom Berners-Lee</option>
+					<option>Tim Borners-Lee </option>
+					<option>Tim Borners-Lee </option>
+					</datalist>
+
 			</div>
 			
-			<div><p>Escull la teva disponibilitat horària per la recollida:</p>
+			<div><p>Que va crear?:</p>
 				  <select size="3" multiple>
-					  <option>Matí</option>
-					  <option>Tarda</option>
-					  <option>Nit</option>
+					  <option>WWW</option>
+					  <option>Google</option>
+					  <option>Electricitat</option>
 				  </select>
 			</div>
 			
 			<div>
-				<p>Selecciona el teu nivell d'experiència amb la cura d'animals:</p>
-				<input type="radio" name="coneixements" value="ninguno"/>sense experiència
+				<p>Selecciona el teu nivell d'experiència amb Internet:</p>
+				<input type="radio" name="coneixements" value="ninguno" checked/>sense experiència
 				<input type="radio" name="coneixements" value="ninguno"/>poca experiència
 				<input type="radio" name="coneixements" value="ninguno"/>alguna experiència
 				<input type="radio" name="coneixements" value="ninguno"/>molta experiència
@@ -62,14 +70,19 @@
 			</div>
 			
 			<div>
+				<p>Selecciona tu tiempo:</p>	
+			<label for="appt"></label>
+			<input type="time" id="appt" name="appt"></div>
+			
+			<div>
 				<p>Alguna observació?</p>
 				<textarea rows="10" cols="50"></textarea>
 			</div>
 			
 			<input type="submit" value="Enviar">
 			<input type="reset" value="Esborrar">
-		
-		</form>
+	
+			</form>
 		
 	  </main>
 	  <div><p>Posa aquí el teu peu</p></div>
